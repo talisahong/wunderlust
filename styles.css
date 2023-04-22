@@ -85,3 +85,38 @@ header{
 #about {
     background-color:var(--blue);
 }
+
+/* menu */
+
+#toggle{
+    display:none;
+}
+
+#menu-toggle label{
+    background-color:var(--yellow);
+}
+
+/* form */
+
+#names input{
+    border-color:var(--purple);
+}
+
+#nums input{
+    border-color:var(--purple);
+}
+
+#selects select{
+    border-color:var(--purple);
+}
+
+#mySubmit{
+    background-color:var(--purple);
+    color:var(--white);
+}
+
+/* footer */
+
+footer{
+    background-color:var(--light-gray);
+}
