@@ -73,3 +73,15 @@ h4, p, q, small, nav, button, form {
 header{
     background-image:linear-gradient(var(--teal), var(--white));
 }
+
+#plan{
+    background-color:var(--yellow);
+}
+
+#plan section {
+    background-color:var(--teal);
+}
+
+#about {
+    background-color:var(--blue);
+}
