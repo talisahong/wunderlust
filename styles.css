@@ -70,3 +70,6 @@ h4, p, q, small, nav, button, form {
     font-family: 'Montserrat';
 }
 
+header{
+    background-image:linear-gradient(var(--teal), var(--white));
+}
