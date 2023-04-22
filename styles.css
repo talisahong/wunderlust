@@ -51,3 +51,22 @@ table {
 
 /* End Reset Style Code */
 
+:root {
+    --yellow:#F6D64A;
+    --teal:#55BCD5;
+    --purple:#9B26B0;
+    --blue:#499BD2;
+    --dark-gray:#222222;
+    --light-gray:#EAEAEA;
+    --white:#FFFFFF;
+    --black:#000000;
+}
+
+h1, h2, h3 {
+    font-family: 'Molle';
+}
+
+h4, p, q, small, nav, button, form {
+    font-family: 'Montserrat';
+}
+
