@@ -98,15 +98,7 @@ header{
 
 /* form */
 
-#names input{
-    border-color:var(--purple);
-}
-
-#nums input{
-    border-color:var(--purple);
-}
-
-#selects select{
+#names input, #nums input, #selects select{
     border-color:var(--purple);
 }
 
