@@ -95,6 +95,7 @@ h2, h3{
 
 header{
     background-image:linear-gradient(var(--teal), var(--white));
+    padding-bottom:150px;
 }
 
 #plan{
@@ -147,7 +148,7 @@ footer{
 
 /* 320px */
 
-@media screen and (min-width: 320px){
+/*@media screen and (max-width: 500px){*/
     h1{
         font-size:55px;
         margin-left:30px;
@@ -322,6 +323,182 @@ footer{
 
     #contact input{
         padding:1rem;
-        padding-right:250px;
+    }
+
+    #fName, #lName, #email, #phone{
+        width:82%;
+    }
+
+    form{
+        margin-left:50px;
+    }
+
+    form input{
+        margin-bottom:20px;
+    }
+
+    .required{
+        color:red;
+    }
+
+    #destination, #travelTime{
+        padding:1rem;
+        margin-bottom:20px;
+        border:2px solid var(--purple);
+        width:90%;
+    }
+
+    input[type="radio"]{
+        transform:scale(5);
+        line-height:5rem;
+        margin-bottom:70px;
+        accent-color:var(--purple);
+    }
+
+    #nums span{
+        margin-left:20px;
+        display:inline-block;
+    }
+
+    #prefEmail{
+        margin-top:40px;
+    }
+
+    #mySubmit{
+        cursor:pointer;
+        width:90%;
+        text-align:center;
+    }
+
+    footer{
+        padding-top:50px;
+        padding-bottom:50px;
+        text-align:center;
+        line-height:3rem;
+    }
+
+    footer a{
+        text-decoration:none;
+        color:var(--black);
+        display:block;
+        font-family: 'Montserrat';
+    }
+/*}*/
+
+@media screen and (min-width:750px){
+    #logo, header h1{
+        display:inline;
+    }
+
+    header p{
+        margin-right:0;
+        padding-right:30px;
+        margin-left:260px;
+    }
+
+    header img{
+        margin-top:60px;
+    }
+
+    nav ul{
+        overflow:visible;
+    }
+
+    nav a{
+        padding:1rem;
+    }
+
+    nav li{
+        display:inline-block;
+        padding:10px;
+    }
+
+    nav{
+        justify-content:center;
+    }
+
+    #menu-toggle label{
+        display:none;
+    }
+
+    #menu-toggle{
+        position:static;
+        text-align:center;
+        margin-top:30px;
+    }
+
+    nav a {
+        background-color:var(--white);
+        border:none;
+        font-weight:bold;
+    }
+
+    nav a:hover{
+        background-color:var(--yellow);
+    }
+
+    h1{
+        position:absolute;
+        top:40px;
+    }
+
+    header p {
+        position:absolute;
+        top:130px;
+    }
+
+    #img-grid{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap:1rem;
+    }
+
+    #img-grid picture{
+        grid-column:1/-1;
+    }
+
+    #plan div, #testimonials div{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap:1rem;
+    }
+
+    #about div{
+        text-align:center;
+    }
+
+    #nums label{
+        display:inline;
+    }
+
+    #email, #phone{
+        display:block;
+    }
+
+    fieldset{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+
+    .radio-input #prefText, .radio-input #prefPhone, .radio-input .radio-control{
+        margin-top:40px;
+    }
+
+    #mySubmit{
+        width:25%;
+        position:absolute;
+        right:80px;
+    }
+
+    #contact{
+        margin-bottom:80px;
+    }
+}
+
+@media screen and (min-width:1250px){
+    #menu-toggle{
+        position:relative;
+        top:-200px;
+        text-align:right;
     }
 }
